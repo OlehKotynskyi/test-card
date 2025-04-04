@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250404141556">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<div class="cards">
+					<!-- Локальний PDF у модальному вікні -->
+					<div class="card" data-pdf="img/goITeens_RobloxStudio_Junior.pdf" data-type="modal">
+						<h3>Цікава математика</h3>
+						<p>Цікава математика - це курс, що допоможе дитині полюбити математику.</p>
+					</div>
+					<!-- Google Drive у новій вкладці -->
+					<div class="card" data-pdf="https://drive.google.com/file/d/1twZNf2R1CgJDdndoUwRzUjUB_3bSoKHb/view?usp=sharing" data-type="new-tab">
+						<h3>Логіка</h3>Логіка
+						<p>Логіка - це курс, що допоможе дитині полюбити математику.</p>
+					</div>
+				</div>
+			</div>
+			<!-- Модальне вікно -->
+			<div class="modal" id="pdfModal">
+				<div class="modal-content">
+					<span class="close">×</span>
+					<iframe id="pdfViewer" src="" frameborder="0"></iframe>
+				</div>
+			</div>
+		</main>
+	</div>
+
+
+	<footer class="footer">
+		<div class="footer__container">
+		</div>
+	</footer>
+	</div>
+	<script src="js/app.min.js?_v=20250404141556"></script>
+
+</body>
+
+</html>
